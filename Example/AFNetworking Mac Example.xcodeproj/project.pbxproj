@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B304CCE8177D58DD00F4FC85 /* adn.cer in Resources */ = {isa = PBXBuildFile; fileRef = B304CCE7177D58DD00F4FC85 /* adn.cer */; };
 		F8129C001591061B009BFE23 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8129BFF1591061B009BFE23 /* Cocoa.framework */; };
 		F8129C321591073C009BFE23 /* AFAppDotNetAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = F8129C251591073C009BFE23 /* AFAppDotNetAPIClient.m */; };
 		F8129C341591073C009BFE23 /* Post.m in Sources */ = {isa = PBXBuildFile; fileRef = F8129C2B1591073C009BFE23 /* Post.m */; };
@@ -21,11 +22,13 @@
 		F82EB080159A172000B10B56 /* AFPropertyListRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = F82EB077159A172000B10B56 /* AFPropertyListRequestOperation.m */; };
 		F82EB081159A172000B10B56 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = F82EB079159A172000B10B56 /* AFURLConnectionOperation.m */; };
 		F82EB082159A172000B10B56 /* AFXMLRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = F82EB07B159A172000B10B56 /* AFXMLRequestOperation.m */; };
+		F88812F216C533E9003C8B8C /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F88812F116C533E9003C8B8C /* Security.framework */; };
 		F8A847CF161F55A500940F39 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8A847CE161F55A500940F39 /* CoreServices.framework */; };
 		F8A847D2161F55AC00940F39 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8A847D1161F55AC00940F39 /* SystemConfiguration.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B304CCE7177D58DD00F4FC85 /* adn.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = adn.cer; sourceTree = SOURCE_ROOT; };
 		F8129BFB1591061B009BFE23 /* AFNetworking Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AFNetworking Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8129BFF1591061B009BFE23 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		F8129C021591061B009BFE23 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -57,6 +60,7 @@
 		F82EB07A159A172000B10B56 /* AFXMLRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFXMLRequestOperation.h; path = ../AFNetworking/AFXMLRequestOperation.h; sourceTree = "<group>"; };
 		F82EB07B159A172000B10B56 /* AFXMLRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFXMLRequestOperation.m; path = ../AFNetworking/AFXMLRequestOperation.m; sourceTree = "<group>"; };
 		F877018B159A1CE700B45C0D /* AFNetworking Example.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "AFNetworking Example.entitlements"; sourceTree = "<group>"; };
+		F88812F116C533E9003C8B8C /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		F8A847CE161F55A500940F39 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = System/Library/Frameworks/CoreServices.framework; sourceTree = SDKROOT; };
 		F8A847D1161F55AC00940F39 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
@@ -66,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F88812F216C533E9003C8B8C /* Security.framework in Frameworks */,
 				F8A847D2161F55AC00940F39 /* SystemConfiguration.framework in Frameworks */,
 				F8A847CF161F55A500940F39 /* CoreServices.framework in Frameworks */,
 				F8129C001591061B009BFE23 /* Cocoa.framework in Frameworks */,
@@ -78,6 +83,7 @@
 		F8129BF01591061B009BFE23 = {
 			isa = PBXGroup;
 			children = (
+				F88812F116C533E9003C8B8C /* Security.framework */,
 				F8A847D1161F55AC00940F39 /* SystemConfiguration.framework */,
 				F8A847CE161F55A500940F39 /* CoreServices.framework */,
 				F877018B159A1CE700B45C0D /* AFNetworking Example.entitlements */,
@@ -135,6 +141,7 @@
 		F8129C061591061B009BFE23 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B304CCE7177D58DD00F4FC85 /* adn.cer */,
 				F8129C6E15910B15009BFE23 /* main.m */,
 				F8129C7015910B3E009BFE23 /* MainMenu.xib */,
 			);
@@ -234,6 +241,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F8129C7115910B3E009BFE23 /* MainMenu.xib in Resources */,
+				B304CCE8177D58DD00F4FC85 /* adn.cer in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -321,7 +329,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "AFNetworking Example.entitlements";
-				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Prefix.pch;
@@ -335,7 +343,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "AFNetworking Example.entitlements";
-				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Prefix.pch;
